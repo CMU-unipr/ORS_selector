@@ -12,7 +12,7 @@ if [ -e "Optimal_Representative_Strain.zip" ]; then
     echo "The file Optimal_Representative_Strain.zip is present in the folder, unzipping..."
 else
     echo "The file Optimal_Representative_Strain.zip is not present in the folder, downloading and unzipping..."
-    wget https://probiogenomics.unipr.it/sw/optimal_representative_strain/Optimal_Representative_Strain.zip
+    wget --no-check-certificate https://probiogenomics.unipr.it/sw/optimal_representative_strain/Optimal_Representative_Strain.zip
 fi
 
 
